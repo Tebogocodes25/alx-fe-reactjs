@@ -1,4 +1,4 @@
-import WelcomeMessage from './components/WelcomeMessage'
+import WelcomeMessage from './components/WelcomeMessage.jsx'
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
@@ -17,7 +17,7 @@ function App() {
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
       </div>
-      <h1>Hello everyone, I am learning React at ALX!</h1>
+      <h1>Hello everyone,I am learning React at ALX!</h1>
       <p>I am learning about JSX!</p>
       <WelcomeMessage />
       <div className="card">
