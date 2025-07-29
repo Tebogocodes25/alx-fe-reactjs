@@ -1,7 +1,7 @@
 import WelcomeMessage from './components/WelcomeMessage.jsx' 
-import Header from './Header'
-import MainContent from './MainContent'
-import Footer from './Footer'
+import Header from './components/Header.jsx'
+import MainContent from './components/MainConten.jsx'
+import Footer from './components/Footer'
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
@@ -23,6 +23,9 @@ function App() {
       <h1>Hello everyone,I am learning React at ALX!</h1>
       <p>I am learning about JSX!</p>
       <WelcomeMessage />
+      <Header />
+      <MainContent />
+      <Footer />
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
