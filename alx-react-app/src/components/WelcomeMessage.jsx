@@ -1,4 +1,4 @@
-function WelcomeMessage() {
+function welcomeMessage() {
     return (
         <div>
             <h1>Welcome to ALX React APP!</h1>
@@ -7,4 +7,4 @@ function WelcomeMessage() {
     );
 }
 
-export default WelcomeMessage;
+export default welcomeMessage;
