@@ -1,4 +1,4 @@
-import welcomeMessage from './components/welcomeMessage
+import WelcomeMessage from './components/WelcomeMessage'
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
@@ -19,7 +19,7 @@ function App() {
       </div>
       <h1>Hello everyone, I am learning React at ALX!</h1>
       <p>I am learning about JSX!</p>
-      <welcomeMessage />
+      <WelcomeMessage />
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
