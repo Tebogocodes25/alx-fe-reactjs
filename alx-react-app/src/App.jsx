@@ -1,6 +1,7 @@
 import WelcomeMessage from './components/WelcomeMessage.jsx' 
 import Header from './components/Header.jsx'
-import MainContent from './components/MainConten.jsx'
+import MainContent from './components/MainContent.jsx'
+import UserProfile from './components/UserProfile.jsx'
 import Footer from './components/Footer'
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
@@ -26,6 +27,9 @@ function App() {
       <Header />
       <MainContent />
       <Footer />
+      
+      <UserProfile name="Alice" age="25" bio="Loves hiking and photography" />
+      
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
