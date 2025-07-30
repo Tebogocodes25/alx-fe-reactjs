@@ -1,8 +1,8 @@
 function Footer() {
   return (
-    <footer>
-      <p>© 2023 City Lovers</p>
-    </footer>
+  <footer style={{ backgroundColor: '#333', color: 'lightgray', textAlign: 'center', padding: '10px' }}> {/* <--- ADD THIS STYLE */}
+  <p>© 2023 City Lovers</p>
+  </footer>
   );
 }
 export default Footer;
